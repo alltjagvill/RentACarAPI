@@ -55,9 +55,9 @@ public class CarPool {
         Manufacturer manufacturer2 = new Manufacturer("Ferrari", "1947", "Exor");
         Manufacturer manufacturer3 = new Manufacturer("Subaru", "1953", "Subaru Corporation");
 
-        Car car1 = new Car("S60", "ABC-123", "Avaible", "600", "2019", manufacturer1);
-        Car car2 = new Car("488 GTB", "DEF-456", "Avaible", "2000", "2019",manufacturer2);
-        Car car3 = new Car("Impreza", "GHI-789", "Avaible", "1500", "2019", manufacturer3);
+        Car car1 = new Car("S60", "ABC123", "Avaible", "600", "2019", manufacturer1);
+        Car car2 = new Car("488 GTB", "DEF456", "Avaible", "2000", "2019",manufacturer2);
+        Car car3 = new Car("Impreza", "GHI789", "Avaible", "1500", "2019", manufacturer3);
         carPool.add(car1);
         carPool.add(car2);
         carPool.add(car3);
